@@ -6,10 +6,9 @@ function App() {
   return (
     <div>
       <AppTitle/>
-      <Rating/>
-      <Accordion/>
-      <Rating/>
-      
+      <Accordion titleValue = {"Menu"} collapsed = {true}/>
+      <Accordion titleValue = {"Users"} collapsed = {false}/>
+      <Rating value = {1}/>
     </div>
   );
   
